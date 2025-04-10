@@ -24,9 +24,7 @@ jobs:
       - name: Run a multi-line script
         run: |
     
-                     #!/bin/bash
-
-curl -X POST \
+  curl -X POST \
   -H 'Content-type: application/json' \
   -H 'auth-token: 02f58bff-7e13-47d7-8e4b-dc9f6e833985' \
   --data '{"forceCancelPreviousTesting":true,"storedValues":{"storedValueName1":"Value"}}' \
